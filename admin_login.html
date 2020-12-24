@@ -1,0 +1,51 @@
+<!DOCTYPE HTML >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Lang" content="en">
+<title>Elog_Book_AdminLogin</title>
+<link rel="stylesheet" type="text/css" href="my.css">
+<style type="text/css">
+body{background:url(img/b.jpg);}
+.input{
+height:38px; color:gray; width:auto; font-family:trebuchet ms; font-size:16; border-radius:7px; position:relative;
+}
+ .submit{
+background:#0F7ACC;     border-radius:25px;
+color:white;
+font-size:15;
+font-family:trebuchet ms;
+font-weight:bolder; width:auto; height:38px; cursor:pointer;   
+}
+.submit:hover{
+background:white;
+color:black;
+font-size:16;
+font-family:trebuchet ms;
+font-weight:bolder;      
+}
+.main2{margin:auto;color:#0F7ACC; font-size:16; height:298px; max-width:70%;  border:1px solid gray;box-shadow: -2px 10px 30px #000;
+border-radius:7px;}
+</style>
+
+
+</head>
+<body>     <br><br>
+  <div class="main2">
+<div style="font-weight: bolder;border-radius:7px 7px 0px 0px;background:#0F7ACC; color:#fff; text-align:center; width:auto; height:auto; font-family:trebuchet ms;">
+ADMIN LOGIN..</div><br>
+ <form action="admin_cpaniel.php" method="post" enctype="multipart/form-data">
+  <center>
+ 
+NAME:<br><input type="text"  required="required" name="name" title="Please enter username" placeholder="Username" class="input">
+<br><br>PASSKEY:<br><input type="password" required="required" name="pin" title="Please enter pin" placeholder="Pin" class="input">
+ <br> <br><center><input type="submit" value="Submit" class="submit" name="submit">&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="Clear" class="submit" ></center>
+       </center> 
+ </form>
+
+
+  
+    </div>
+    
+</body>
+</html>
